@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.item {
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #b5b7c4;
+  height: 110px;
+  width: 300px;
+  padding: 7px;
+  border-style: solid;
+  margin-right: 25px;
+}
+.btn-star {
+  background-color: white;
+  border-width: 0px;
+}
+.grp {
+  display: flex;
+  justify-content: space-between;
+}
+.para {
+  color: #b5b7c4;
+  font-weight: bold;
+}
+.head {
+  font-size: 17px;
+}

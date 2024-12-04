@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100%;
+  padding: 50px;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 100px;
+}
+.lft-card {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  border-width: 0px;
+  border-radius: 5px;
+  background-color: #8b5cf6;
+  color: white;
+  height: 35px;
+  margin-top: 25px;
+  width: 50px;
+}
+.inner-card {
+  display: flex;
+  justify-content: space-between;
+}
+label {
+  color: #b5b7c4;
+  font-size: 11px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 7px;
+}
+.ipt {
+  outline: none;
+  border-width: 1px;
+  border-color: #171f46;
+  border-radius: 5px;
+  height: 35px;
+  width: 250px;
+  padding-left: 10px;
+}
+.line {
+  margin-top: 20px;
+  background-color: #b5b7c4;
+  height: 2px;
+  border-width: 0px;
+}
+.lists {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.star-btn {
+  background-color: white;
+  color: #8b5cf6;
+  border-radius: 15px;
+  border-width: 1px;
+  height: 25px;
+  width: 80px;
+
+  border-color: #8b5cf6;
+}
+.inner-card {
+  display: flex;
+  justify-content: 'space-between';
+  align-items: center;
+}
+.reverse {
+  color: white;
+  background-color: #8b5cf6;
+}
